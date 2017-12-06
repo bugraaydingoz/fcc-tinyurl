@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener Microservice | Bugra Aydingoz</title>
+    <meta name="description" content="Code in Black">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Style Sheets -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>URL Shortener Microservice</h1>
+   <p>
+      <i class="fa fa-circle"aria-hidden="true"></i> I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+     <br/><br/><i class="fa fa-circle"aria-hidden="true"></i>  When I visit that shortened URL, it will redirect me to my original link.
+    </p>
+
+    <h2>Example creation usage:</h2>
+    <p>
+      <span class="code">https://codeinblack.com/node/api/tinyurl/new/https://www.google.com</span>
+      <span class="code"><br/>https://codeinblack.com/node/api/tinyurl/new/https://bugraaydingoz.com</span>
+    </p>
+
+    <h2>Example creation output:</h2>
+    <p>
+        <span class="code">{ "original_url":"https://bugraaydingoz.com", "short_url":"https://codeinblack.com/node/api/tinyurl/8170" }</span>
+    </p>
+    <h2>Usage:</h2>
+    <p>
+      <span class="code">https://codeinblack.com/node/api/tinyurl/8170</span>
+    </p>
+    <h2>Will redirect to:</h2>
+      <p>
+        <span class="code">https://bugraaydingoz.com</span>
+      </p>
+  	<footer>	
+    	<a href="https://bugraaydingoz.com" target="_blank">
+      		<p>Made by Bugra Aydingoz with <i class="fa fa-heart" style="color:red;" aria-hidden="true"></i></p>
+    	</a>
+	</footer>
+  </body>
+</html>
